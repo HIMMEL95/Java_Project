@@ -1,31 +1,30 @@
 package hiding;
 
 public class Mydate {
-	
+
 	private int day;
 	private int month;
 	private int year;
-	
+
 	private boolean isValid;
-	
+
 	public void setDay(int day) {
 		this.day = day;
-	} 
-	
+	}
+
 	public int getDay() {
 		return day;
 	}
-	
+
 	public int getMonth() {
 		return month;
 	}
 
 	public void setMonth(int month) {
-		
+
 		if (month < 1 || month > 12) {
 			isValid = false;
-		} 
-		else 
+		} else
 			this.month = month;
 	}
 
@@ -39,9 +38,9 @@ public class Mydate {
 
 	public void showDate() {
 		if (isValid) {
-			System.out.println(year + "³â" + month + "¿ù" + day + "ÀÏ");
+			System.out.println(year + "ë…„" + month + "ì›”" + day + "ì¼");
 		} else {
-			System.out.println("À¯È¿ÇÏÁö ¾ÊÀº ³¯Â¥ ÀÔ´Ï´Ù");
+			System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ë‚ ì§œ ì…ë‹ˆë‹¤.");
 		}
 	}
 }

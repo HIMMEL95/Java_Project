@@ -4,13 +4,12 @@ public class IfExample1 {
 
 	public static void main(String[] args) {
 
-		char gender ='M';
-		
-		if  ( gender =='F') {
-			System.out.println("¿©¼ºÀÔ´Ï´Ù.");
-		}
-		else {
-			System.out.println("¿©¼ºÀÌ ¾Æ´Õ´Ï´Ù.");
+		char gender = 'M';
+
+		if (gender == 'F') {
+			System.out.println("ì—¬ì„±ì…ë‹ˆë‹¤.");
+		} else {
+			System.out.println("ì—¬ì„±ì´ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 	}
 

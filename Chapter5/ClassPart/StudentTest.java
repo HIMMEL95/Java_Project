@@ -1,23 +1,21 @@
-package classPart;
-
 public class StudentTest {
 
 	public static void main(String[] args) {
 
-		Student studentLee = new Student("ÀÌ¼ø½Å");
-		//studentLee.studentName = "ÀÌ¼ø½Å";
-		studentLee.address = "¼­¿ï";
-		
+		Student studentLee = new Student("ì´ìˆœì‹ ");
+		// studentLee.studentName = "ì´ìˆœì‹ ";
+		studentLee.address = "ì„œìš¸";
+
 		studentLee.showStudentInfo();
-		
-		Student studentKim = new Student(100, "±èÀ¯½Å");
-		//studentKim.studentName = "±èÀ¯½Å";
-		//studentKim.address = "°æÁÖ";
-		
+
+		Student studentKim = new Student(100, "ê¹€ìœ ì‹ ");
+		// studentKim.studentName = "ê¹€ìœ ì‹ ";
+		// studentKim.address = "ê²½ì£¼";
+
 		studentKim.showStudentInfo();
-		
-		//System.out.println(studentLee);
-		//System.out.println(studentKim);
+
+		// System.out.println(studentLee);
+		// System.out.println(studentKim);
 	}
 
 }

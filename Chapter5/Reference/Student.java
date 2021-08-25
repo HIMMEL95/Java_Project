@@ -1,36 +1,36 @@
 package reference;
 
 public class Student {
-	
+
 	int studentID;
 	String studentName;
-	
+
 	Subject korea;
 	Subject math;
-	
+
 	public Student(int id, String name) {
-	
+
 		studentID = id;
 		studentName = name;
-		
+
 		korea = new Subject();
 		math = new Subject();
 	}
-	
+
 	public void setKoreaSubject(String name, int score) {
 		korea.subjectName = name;
 		korea.Score = score;
 	}
-	
+
 	public void setMathSubject(String name, int score) {
 		math.subjectName = name;
 		math.Score = score;
 
 	}
-	
+
 	public void showStudentScore() {
 		int total = korea.Score + math.Score;
-		System.out.println(studentName + " ÇĞ»ıÀÇ ÃÑÁ¡Àº " + total + "Á¡ ÀÔ´Ï´Ù.");
+		System.out.println(studentName + " í•™ìƒì˜ ì´ì ì€ " + total + "ì  ì…ë‹ˆë‹¤.");
 	}
 
 }

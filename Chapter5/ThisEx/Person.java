@@ -1,23 +1,23 @@
 package thisex;
 
 public class Person {
-	
+
 	String name;
-	int age; 
-	
+	int age;
+
 	public Person() {
-		this("ÀÌ¸§ ¾øÀ½", 1);
+		this("ì´ë¦„ ì—†ìŒ", 1);
 	}
-	
+
 	public Person(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}
-	
+
 	public void showInfo() {
-		System.out.println(name + "," + age );
+		System.out.println(name + "," + age);
 	}
-	
+
 	public Person getSelf() {
 		return this;
 	}

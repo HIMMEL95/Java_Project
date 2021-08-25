@@ -1,7 +1,5 @@
-package cooperation;
-
 public class Subway {
-	
+
 	int lineNumber;
 	int passengerCount;
 	int money;
@@ -9,13 +7,13 @@ public class Subway {
 	public Subway(int lineNumber) {
 		this.lineNumber = lineNumber;
 	}
-	
+
 	public void take(int money) {
 		this.money += money;
 		passengerCount++;
 	}
-	
+
 	public void showSubwayInfo() {
-		System.out.println(lineNumber + "¹ø ÁöÇÏÃ¶ÀÇ ½Â°´Àº " + passengerCount + "¸í ÀÌ°í, ¼öÀÔÀº "+ money + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println(lineNumber + "ë²ˆ ì§€í•˜ì² ì˜ ìŠ¹ê°ì€ " + passengerCount + "ëª… ì´ê³ , ìˆ˜ì…ì€ " + money + "ì› ì…ë‹ˆë‹¤.");
 	}
 }

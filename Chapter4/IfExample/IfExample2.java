@@ -24,8 +24,8 @@ public class IfExample2 {
 			grade = 'F';
 		}
 		
-		System.out.println("Á¡¼ö : " + score);
-		System.out.println("ÇĞÁ¡ : " + grade);
+		System.out.println("ì ìˆ˜" : " + score);
+		System.out.println("í•™ì  : " + grade);
 		
 		
 	}

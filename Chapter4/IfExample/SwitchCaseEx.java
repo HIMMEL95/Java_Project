@@ -7,23 +7,27 @@ public class SwitchCaseEx {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		
+
 		int rank = sc.nextInt();
 		char medalColor;
-		
-		 switch(rank) {
-		 	case 1: medalColor = 'G';
-		 		System.out.println("±İ¸Ş´Ş");
-		 		break;	
-		 	case 2: medalColor = 'S';
-		 		System.out.println("Àº¸Ş´Ş");
-		 		break;
-		 	case 3: medalColor = 'B';
-		 		System.out.println("µ¿¸Ş´Ş");
-		 		break;
-		 	default : medalColor = 'A';
-		 }
-		 System.out.println(rank + "µîÀº " + medalColor + "¸Ş´Ş ÀÔ´Ï´Ù.");
+
+		switch (rank) {
+			case 1:
+				medalColor = 'G';
+				System.out.println("ê¸ˆë©”ë‹¬");
+				break;
+			case 2:
+				medalColor = 'S';
+				System.out.println("ì€ë©”ë‹¬");
+				break;
+			case 3:
+				medalColor = 'B';
+				System.out.println("ë™ë©”ë‹¬");
+				break;
+			default:
+				medalColor = 'A';
+		}
+		System.out.println(rank + "ë“±ì€ " + medalColor + "ë©”ë‹¬ ì…ë‹ˆë‹¤.");
 	}
 
 }

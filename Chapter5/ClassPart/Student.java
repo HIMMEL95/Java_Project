@@ -1,25 +1,23 @@
-package classPart;
-
 public class Student {
-	
+
 	public int studentID;
 	public String studentName;
 	public String address;
-	
+
 	public Student(String name) {
 		studentName = name;
 	}
-	
+
 	public Student(int id, String name) {
-		studentID = id; // studentID¿¡ id ÃÊ±âÈ­
-		studentName = name; // studentName¿¡ name ÃÊ±âÈ­
-		address = "ÁÖ¼Ò ¾øÀ½";
-	} // »ı¼ºÀÚ ±¸Çö 
+		studentID = id; // studentIDì— id ì´ˆê¸°í™”
+		studentName = name; // studentNameì— name ì´ˆê¸°í™”
+		address = "ì£¼ì†Œ ì—†ìŒ";
+	} // ìƒì„±ì êµ¬í˜„
 
 	public void showStudentInfo() {
 		System.out.println(studentName + "," + address);
 	}
-	
+
 	public String getStudentName() {
 		return studentName;
 	}
