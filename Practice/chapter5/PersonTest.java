@@ -1,4 +1,3 @@
-package chapter5;
 
 public class PersonTest {
 
@@ -10,10 +9,10 @@ public class PersonTest {
 		person.isMarried = true;
 		person.numberOfChildren = 3;
 
-		System.out.println("ë‚˜ì´ : " + person.age);
-		System.out.println("ì´ë¦„: " + person.name);
-		System.out.println("ê²°í˜¼ ì—¬ë¶€ : " + person.isMarried);
-		System.out.println("ìë…€ ìˆ˜ : " + person.numberOfChildren);
+		System.out.println("?‚˜?´ : " + person.age);
+		System.out.println("?´ë¦?: " + person.name);
+		System.out.println("ê²°í˜¼ ?—¬ë¶? : " + person.isMarried);
+		System.out.println("???? ?ˆ˜ : " + person.numberOfChildren);
 	}
 
 }
